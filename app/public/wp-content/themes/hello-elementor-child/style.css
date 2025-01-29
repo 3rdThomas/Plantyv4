@@ -1,0 +1,323 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 3.2.1.1735316275
+Updated: 2024-12-27 16:17:55
+*/
+
+h1{
+	font-family :syne;
+	font-weight : 900;
+	font-size : 1.5rem;
+	text-align : center;
+	color : white;
+	padding-bottom : 40px;
+}
+h2{
+	font-family :syne;
+	font-weight : bold;
+	font-size : 30px;
+	color : white;
+	padding-top : 20px;
+}
+.nous-contacter label{
+    color : black;
+}
+a{
+    font-family: "Syne", serif;
+    font-weight : 400;
+    font-size : 15px;
+    color: rgb(0, 0, 0);
+}
+/*
+label est utilisé pour la page de commander
+*/
+label{
+	font-family: "Syne", serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size : 16px;
+	color : white;
+}
+/*
+label2 est utilisé pour la page de nous rencontrer
+*/
+.label2{
+	font-family: "Syne", serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size : 16px;
+	color : rgb(0, 0, 0);
+}
+.info2{
+    width: 30% !important;
+}
+/*
+field est utilisé pour les champs de texte de la page de commander
+*/
+.field{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+/*
+field2 est utilisé pour les champs de texte de la page nous rencontrer
+*/
+.field2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none!important;
+}
+input{
+    margin-top: 5px;
+    min-height: 60px;
+}
+#site-header{
+    display: flex;
+	flex-direction: row;
+	justify-content : center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.fraise {
+    max-width: 60px;
+}
+.pamplemousse {
+    max-width: 60px;
+}
+.framboise {
+    max-width: 60px;
+}
+.citron {
+    max-width: 60px;
+}
+.site-header .header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 100%;
+    padding-left: 60px
+}
+.header-inner{
+    padding: 0px;
+    margin: 0px;
+    width: 1024px;
+    min-height: 80px;
+}
+/*
+bouton "Commander" du header
+*/
+.menu-item-236 {
+    color: white;
+    background-color : #DC9F96;
+    min-height: 80px;
+    min-width: 236px;
+    display: flex;
+    flex-direction: row;
+    justify-content : center;
+    padding: 0px;
+    align-items: center;  
+    order: 3;
+}
+/*
+texte du bouton "Commander" du header
+*/
+.menu-item-236 a {
+    color: white; 
+    font-family :syne;
+    font-weight : bold;
+    font-size : 15px;
+    
+}
+/*
+bouton "Admin" du header
+*/
+.menu-item-235 {
+    display: flex;
+    flex-direction: row;
+    justify-content : center;
+    padding: 0px;
+    align-items: center;
+    padding-right: 30px;
+    order: 2;
+}
+/*
+bouton "Nous rencontrer" du header
+*/
+.menu-item-237  {
+    display: flex;
+    flex-direction: row;
+    justify-content : center;
+    padding: 0px;
+    align-items: center;
+    padding-right: 30px;
+    order: 1;
+    
+}
+.button{
+	background-color: #E0B9B4;
+	color : white;
+	border: 0px solid;
+	border-radius: 5px;
+	align-content: center;
+    min-height: 55px;
+    min-width: 190px;
+}
+/*
+divider veritical de la page commander
+*/
+.vl {
+    border-left: 1px solid white;
+    left: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+	margin-top: 35px;
+    margin-bottom: 15px;
+    top: 0;
+}
+/*
+container est utilisé pour la page commander
+*/
+.container {
+    margin: 0 auto;
+    background-color: #3B8E46;
+}
+/*
+container est utilisé pour la page nous rencontrer
+*/
+.container2 {
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ffffff00;
+}
+.info-container {
+	display: flex;
+	flex-direction: row;
+	justify-content : center;
+    margin-bottom: 20px;
+	margin-top: 40px;
+	padding : 20px;
+}
+.product-container {
+    display: flex;
+	flex-direction: row;
+    justify-content : space-between;
+    margin-bottom: 20px;
+}
+.product {
+    text-align: center;
+    margin-bottom: 20px;
+	padding : 20px;
+}
+.product img{
+    width: 500px;
+}  
+.buttons{
+    display: flex;
+	flex-direction: row;
+	justify-content : center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 768px (tablets and desktops) */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    
+    .product-container {
+        flex-direction: column;
+    }
+
+    .product img{
+        width: 100%;
+    }  
+    .info2{
+        width: 85% !important;
+    } 
+    h1{
+        font-family :syne;
+        font-weight : 900;
+        font-size : 1.5rem;
+        text-align : center;
+        color : white;
+        padding-bottom : 40px;
+    }
+    h2{
+        font-family :syne;
+        font-weight : bold;
+        text-align : center;
+        font-size : 30px;
+        color : white;
+        padding-top : 20px;
+    }
+    .product p{
+        display: flex;
+        flex-direction: column;
+        justify-content : center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .info-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content : center;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        padding : 20px;
+    }
+    .livraison .vosinfo{
+        display: flex;
+        flex-direction: column;
+        justify-content : center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .buttons {
+        justify-content: center;
+    }
+    .site-header .header-inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        min-width: 100%;
+        padding-left: 20px
+    }
+    .vl {
+        display: none;
+    }
+    /*
+    bouton "Commander" du header
+    */
+    .menu-item-236 {
+        color: white;
+        background-color : #000000;
+        min-height: 100%;
+        min-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content : center;
+        padding: 0px;
+        align-items: center;  
+    }
+    /*
+    texte du bouton "Commander" du header
+    */
+    .menu-item-236 a {
+        color: rgb(255, 0, 0); 
+        font-family :syne;
+        font-weight :400;
+        font-size : 15px;
+    }
+}
