@@ -13,10 +13,11 @@ Updated: 2024-12-27 16:17:55
 h1{
 	font-family :syne;
 	font-weight : 900;
-	font-size : 1.5rem;
+	font-size : 38px;
 	text-align : center;
 	color : white;
 	padding-bottom : 40px;
+    line-height: 45.6px;
 }
 h2{
 	font-family :syne;
@@ -24,6 +25,7 @@ h2{
 	font-size : 30px;
 	color : white;
 	padding-top : 20px;
+    line-height: 36px;
 }
 .nous-contacter label{
     color : black;
@@ -125,6 +127,9 @@ bouton "Commander" du header
     align-items: center;  
     order: 3;
 }
+.menu-item-236:hover {
+    background-color: #C02E44;
+  }
 /*
 texte du bouton "Commander" du header
 */
@@ -147,6 +152,9 @@ bouton "Admin" du header
     padding-right: 30px;
     order: 2;
 }
+.menu-item-235 :hover {
+    font-weight : bold;
+}
 /*
 bouton "Nous rencontrer" du header
 */
@@ -157,9 +165,17 @@ bouton "Nous rencontrer" du header
     padding: 0px;
     align-items: center;
     padding-right: 30px;
-    order: 1;
-    
+    order: 1;  
 }
+
+.menu-item-237 :hover {
+    font-weight : bold;
+}
+/*Bouton "Mention légales" du footer*/
+.footer_button :hover {
+    font-weight : bold;
+}
+/*Bouton "commander" de la page commander*/
 .button{
 	background-color: #E0B9B4;
 	color : white;
@@ -169,6 +185,9 @@ bouton "Nous rencontrer" du header
     min-height: 55px;
     min-width: 190px;
 }
+.button:hover {
+    background-color: #C02E44;
+  }
 /*
 divider veritical de la page commander
 */
